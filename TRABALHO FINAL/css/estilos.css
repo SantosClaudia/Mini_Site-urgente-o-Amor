@@ -1,0 +1,203 @@
+/* Regras para todo o site */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0%;
+}
+
+a, a:visited{
+    text-decoration: none;
+}
+
+.menu {
+    background-color: rgb(26, 24, 24);
+    text-align: end;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.menu-links a {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 15px 15px 15px 15px;
+}
+
+.menu-links a:hover {
+    text-decoration: underline;
+}
+
+/* Regras para todo o site excepto index */
+
+.menu-logo a img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 30px;
+}
+
+main.container-corposite {
+    margin-top: 140px;
+}
+
+.footer-sociais {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    align-items: center;
+}
+
+.footer-sociais a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-sociais a img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer.container-corposite {
+    height: 60px;
+    margin-top: 100px;
+}
+
+footer div p {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+
+/* index */
+
+.indexoverflow {
+    overflow: hidden;
+}
+
+.seccao2colunas {
+    background-color: rgb(26, 24, 24);
+}
+
+.section-logo {
+    display: inline-block;
+    background-color: rgb(26, 24, 24);
+}
+
+.section-logo img {
+    width: 700px;
+    height: auto;
+}
+
+.section-sociais {
+    display: inline-block;
+    background-color: rgb(26, 24, 24);
+}
+
+.section-sociais a img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 160px;
+    margin-left: 10px;
+}
+
+/* sobre */
+
+.container-corposite {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#texto-sobre h1 {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.textoapresentacao {
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* portfolio */
+
+ul.ul-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2vmin;
+}
+
+li.li-portfolio {
+    height: 30vh;
+    flex-grow: 1;
+    margin: 2vmin;
+    list-style-type: none;
+}
+
+ul.ul-portfolio::after {
+    content: "";
+    flex-grow: 10;
+}
+
+img.img-portfolio {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+    border-radius: 1vmin;
+    transition: transform .3s;
+}
+
+.img-portfolio:hover {
+    transform: scale(1.1);
+
+}
+
+/* contactos*/
+
+#mapa {
+    height: 300px;
+    width: 100%;
+}
+
+.contactos {
+    min-width: 35vw;
+}
+
+.containerform {
+    width: 50%;
+}
+
+#formcontactos {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerform label {
+    margin-bottom: 10px;
+}
+
+.containerform input[type="submit"] {
+    
+    width: 50%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(26, 24, 24);
+    border: 0;
+}

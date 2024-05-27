@@ -1,0 +1,169 @@
+﻿body {
+    background: rgb(255, 255, 255);
+}
+
+/* Layout da página */
+
+.side-column {
+    width: 24;
+    display: inline-block;
+}
+
+.content-column {
+    width: 75%;
+    display: inline-block;
+}
+
+/* Regras do Menu */
+.menu {
+    background: rgb(47, 46, 46);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+
+.menu a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 15px 15px 15px 15px;
+}
+
+.submenu {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.submenu a {
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.submenu a:hover {
+    text-decoration: underline;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Página de Início */
+
+
+.banner {
+    background-image: url(./imagens/1inicio.png);
+    background-size: cover;
+    height: 1000px;
+    background-position-y: -1000px;
+    display: flex;
+    align-items: center;
+}
+
+.banner a h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin: auto 50%;
+    /* padding-top: 400px; */
+}
+
+.banner a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0);
+}
+
+.banner a:visited {
+    color: black;
+}
+
+.banner h3 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.cred {
+    color: red;
+}
+
+iframe {
+    width: 100%;
+}
+
+/* Página de Portfólio */
+
+.containerportfolio {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 130px;
+    width: 90%;
+
+}
+
+.img-portfolio {
+    width: 30%;
+
+}
+
+/* Página Sobre */
+
+
+h1 {
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding-top: 100px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    line-height: 1.5;
+}
+
+#textoapresentacao {
+
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 20;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding-top: 10px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    line-height: 1.5;
+}
+
+/* Página contactos */
+
+#contactos {
+
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 20;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding-top: 10px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    line-height: 1.5;
+}
